@@ -1,0 +1,17 @@
+div {
+    display: block;
+}
+.class6 {
+    -webkit-transition: opacity 0.25s linear;
+}
+.class4 {
+    -webkit-transform: translate(0px, 0px);
+    opacity: 1;
+}
+.default {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    -webkit-transform-origin: 0px 0px;
+    transform-origin: 0px 0px;
+}
