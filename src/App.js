@@ -1,19 +1,23 @@
-import Navbar from './Components/Navbar';
 import Billboard from './Components/Billboard';
-import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+
+
 import './index.css';
 
 function App() {
 
   return (
-       <div className="App">
-        <Navbar/>
-              <div className="content">
-           <Billboard/>
+       <div className="App default" style={{width: '100%', height: '100%'}}>
+          <div className="App default class4 class6" style={{overflow: 'hidden', width: '100%', height: '100%', zIndex: '0', position: 'fixed'}}>
+            <div className="default class2 class4" style={{backgroundSize: '100% 100%', width: '100%', height: '100%', backgroundImage: 'url("assets/images/backgrounds/hbomax/default_1920x1080.png")'}}>
+          
+            </div>
+            <Navbar/>
           </div>
-        </div>
+          <Billboard/>
+      </div>
+
   );
 }
 
 export default App;
-
