@@ -1,3 +1,4 @@
+import React from 'react';
 const Navbar = ()=>{
 
 return(
@@ -8,8 +9,8 @@ return(
       <a href="/series">Series</a>
       <a href="/peliculas">Pelicuas</a>
       <a href="/about">Iniciar sesion</a>
-      <a href="/peliculas">Pelicuas</a>
-      <a href="/about">Sobre</a>
+      <a href="/peliculas">Suscribirse</a>
+      <a href="/about">Sobre Nosotros</a>
     </div>
 </nav>
 
